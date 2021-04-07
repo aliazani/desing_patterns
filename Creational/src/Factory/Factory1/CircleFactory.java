@@ -3,6 +3,6 @@ package Factory.Factory1;
 public class CircleFactory extends AbstractShapeFactory {
     @Override
     protected Shape factoryMethod() {
-        return new Circle
+        return new Circle();
     }
 }
