@@ -1,5 +1,5 @@
 package Factory.Factory1;
 
-interface Shape1 {
+interface Shape {
     void draw();
 }
