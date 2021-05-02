@@ -1,13 +1,12 @@
 package Prototype.Prototype1;
 
 import java.util.Hashtable;
-
+// Register design pattern
 public class ShapeCache {
     private static final Hashtable<String, Shape> shapeMap = new Hashtable<>();
 
     public static Shape getShape(String shapeId) {
         Shape cachedShape = shapeMap.get(shapeId);
-
         return (Shape) cachedShape.clone();
     }
 

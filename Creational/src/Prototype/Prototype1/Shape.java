@@ -22,12 +22,13 @@ public abstract class Shape implements Cloneable {
         this.type = type;
     }
 
+    @Override
     public Object clone() {
         Object clone = null;
         try {
             clone = (Shape) super.clone();
         } catch (CloneNotSupportedException e) {
-            e.printStackTrace();
+            return null;
         }
         return clone;
     }
