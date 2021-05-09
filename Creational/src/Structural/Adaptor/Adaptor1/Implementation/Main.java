@@ -1,6 +1,6 @@
-package Structural.Adaptor.Adaptor1;
+package Structural.Adaptor.Adaptor1.Implementation;
 
-import Structural.Adaptor.Adaptor1.AvaFilters.Caramel;
+import Structural.Adaptor.Adaptor1.Implementation.AvaFilters.Caramel;
 
 public class Main {
     public static void main(String[] args) {

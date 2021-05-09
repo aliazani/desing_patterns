@@ -1,4 +1,4 @@
-package Structural.Adaptor.Adaptor1;
+package Structural.Adaptor.Adaptor1.Implementation;
 
 public class VividFilter implements Filter{
     @Override

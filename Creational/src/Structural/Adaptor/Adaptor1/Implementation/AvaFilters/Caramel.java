@@ -1,6 +1,6 @@
-package Structural.Adaptor.Adaptor1.AvaFilters;
+package Structural.Adaptor.Adaptor1.Implementation.AvaFilters;
 
-import Structural.Adaptor.Adaptor1.Image;
+import Structural.Adaptor.Adaptor1.Implementation.Image;
 
 public class Caramel {
     public void init() {
