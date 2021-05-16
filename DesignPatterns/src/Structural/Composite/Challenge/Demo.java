@@ -1,6 +1,10 @@
 package Structural.Composite.Challenge;
 
 public class Demo {
+    public static void main(String[] args) {
+        show();
+    }
+
     public static void show() {
         var subTeam1 = new Team();
         subTeam1.add(new Truck());
