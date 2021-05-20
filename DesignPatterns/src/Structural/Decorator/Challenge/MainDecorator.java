@@ -1,10 +1,10 @@
 package Structural.Decorator.Challenge;
 
-public class MainDetector implements AbstractArtefact {
+public class MainDecorator implements AbstractArtefact {
     private boolean isMain;
     private AbstractArtefact abstractArtefact;
 
-    public MainDetector(AbstractArtefact abstractArtefact) {
+    public MainDecorator(AbstractArtefact abstractArtefact) {
         this.abstractArtefact = abstractArtefact;
     }
 

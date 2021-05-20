@@ -9,8 +9,8 @@ public class Editor {
                 new Artefact("EmailProvider"),
         };
 
-        artefacts[0] = new ErrorDetector(new MainDetector(artefacts[0]));
-        artefacts[2] = new ErrorDetector(artefacts[2]);
+        artefacts[0] = new ErrorDecorator(new MainDecorator(artefacts[0]));
+        artefacts[2] = new ErrorDecorator(artefacts[2]);
 
         for (var artefact : artefacts)
             System.out.println(artefact.render());

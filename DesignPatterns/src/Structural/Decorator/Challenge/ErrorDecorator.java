@@ -1,9 +1,9 @@
 package Structural.Decorator.Challenge;
 
-public class ErrorDetector implements AbstractArtefact {
+public class ErrorDecorator implements AbstractArtefact {
     private AbstractArtefact abstractArtefact;
 
-    public ErrorDetector(AbstractArtefact abstractArtefact) {
+    public ErrorDecorator(AbstractArtefact abstractArtefact) {
         this.abstractArtefact = abstractArtefact;
     }
 
