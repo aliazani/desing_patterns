@@ -5,9 +5,6 @@ public class SpreadSheet {
     // They should be read from a configuration file.
     private final int MAX_ROWS = 3;
     private final int MAX_COLS = 3;
-    private final String fontFamily = "Times New Roman";
-    private final int fontSize = 12;
-    private final boolean isBold = false;
     private CellContextFactory contextFactory;
 
     private Cell[][] cells = new Cell[MAX_ROWS][MAX_COLS];
@@ -33,7 +30,7 @@ public class SpreadSheet {
 
         var cell = cells[row][col];
         var currentContext = cell.getContext();
-        var context = contextFactory.getContext(fontFamily,
+        var context = contextFactory.getCellContext(fontFamily,
                 currentContext.getFontSize(),
                 currentContext.isBold());
         cells[row][col].setContext(context);
