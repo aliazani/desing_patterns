@@ -1,4 +1,4 @@
-package Structural.Flyweight;
+package Structural.Flyweight.Problem;
 
 public enum PointType {
     HOSPITAL,

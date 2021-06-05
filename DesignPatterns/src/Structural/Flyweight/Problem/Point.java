@@ -1,6 +1,8 @@
-package Structural.Flyweight;
+package Structural.Flyweight.Problem;
 
 public class Point {
+    // Use this pattern in applications, we have a large number of object and this objects take a significant amount of memory
+    // -> reduce the amount of memory consumed by these objects
     private int x; // 4 bytes
     private int y; // 4 bytes
     private PointType type; // 4 bytes

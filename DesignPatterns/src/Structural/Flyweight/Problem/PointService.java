@@ -1,4 +1,4 @@
-package Structural.Flyweight;
+package Structural.Flyweight.Problem;
 
 import java.util.ArrayList;
 import java.util.List;
