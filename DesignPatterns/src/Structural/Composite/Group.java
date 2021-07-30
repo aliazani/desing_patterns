@@ -10,6 +10,10 @@ public class Group implements Component {
         components.add(component);
     }
 
+    public void remove(Component component) {
+        components.remove(component);
+    }
+
     @Override
     public void render() {
         for (var component : components)
