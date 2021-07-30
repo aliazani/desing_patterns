@@ -15,7 +15,7 @@ public class Shape implements Component {
     }
 
     @Override
-    public void move() {
-        System.out.println(MessageFormat.format("Moving shape {0} !", name));
+    public void move(int x, int y) {
+        System.out.println(MessageFormat.format("Moving shape {0} to ({1}, {2}) coordination!", name, x, y));
     }
 }

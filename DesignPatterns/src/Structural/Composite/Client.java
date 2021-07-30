@@ -16,5 +16,6 @@ public class Client {
         group.add(group1);
         group.add(group2);
         group.render();
+        group.move(10, 10);
     }
 }

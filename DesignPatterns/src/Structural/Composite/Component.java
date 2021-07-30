@@ -3,5 +3,5 @@ package Structural.Composite;
 public interface Component {
     void render();
 
-    void move();
+    void move(int x, int y);
 }

@@ -21,8 +21,8 @@ public class Group implements Component {
     }
 
     @Override
-    public void move() {
+    public void move(int x, int y) {
         for (var component : components)
-            component.move();
+            component.move(x, y);
     }
 }
