@@ -1,4 +1,4 @@
-package Structural.Adaptor.Adaptor1.Implementation;
+package Structural.Adapter.Solution;
 
 public class ImageView {
     private Image image;

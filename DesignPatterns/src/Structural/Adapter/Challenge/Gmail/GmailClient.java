@@ -1,4 +1,4 @@
-package Structural.Adaptor.Adaptor1.Challenge.Gmail;
+package Structural.Adapter.Challenge.Gmail;
 
 public class GmailClient  {
   public void connect() {

@@ -1,7 +1,7 @@
-package Structural.Adaptor.Adaptor1.Implementation;
+package Structural.Adapter.Solution;
 
-import Structural.Adaptor.Adaptor1.Implementation.AvaFilters.Caramel;
-
+import Structural.Adapter.Solution.AvaFilters.Caramel;
+// Inheritance
 public class CaramelAdaptor2 extends Caramel implements Filter {
     @Override
     public void apply(Image image) {

@@ -1,8 +1,8 @@
-package Structural.Adaptor.Adaptor1.Implementation;
+package Structural.Adapter.Solution;
 
-import Structural.Adaptor.Adaptor1.Implementation.AvaFilters.Caramel;
+import Structural.Adapter.Solution.AvaFilters.Caramel;
 
-public class Main {
+public class Client {
     public static void main(String[] args) {
         var imageView = new ImageView(new Image());
         imageView.apply(new VividFilter());

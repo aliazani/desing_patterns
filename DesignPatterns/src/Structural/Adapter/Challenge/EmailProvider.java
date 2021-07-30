@@ -1,4 +1,4 @@
-package Structural.Adaptor.Adaptor1.Challenge;
+package Structural.Adapter.Challenge;
 
 public interface EmailProvider {
   void downloadEmails();

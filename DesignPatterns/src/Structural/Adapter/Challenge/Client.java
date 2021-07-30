@@ -1,6 +1,6 @@
-package Structural.Adaptor.Adaptor1.Challenge;
+package Structural.Adapter.Challenge;
 
-public class Main {
+public class Client {
     public static void main(String[] args) {
         var client = new EmailClient();
 

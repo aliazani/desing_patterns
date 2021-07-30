@@ -1,4 +1,4 @@
-package Structural.Adaptor.Adaptor1.Implementation;
+package Structural.Adapter.Problem;
 
 public interface Filter {
     void apply(Image image);

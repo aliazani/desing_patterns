@@ -1,7 +1,7 @@
-package Structural.Adaptor.Adaptor1.Implementation;
+package Structural.Adapter.Solution;
 
-import Structural.Adaptor.Adaptor1.Implementation.AvaFilters.Caramel;
-
+import Structural.Adapter.Solution.AvaFilters.Caramel;
+// Aggregation(Composition)
 public class CaramelAdaptor implements Filter {
     private Caramel caramel;
 

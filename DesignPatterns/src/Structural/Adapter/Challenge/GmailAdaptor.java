@@ -1,6 +1,6 @@
-package Structural.Adaptor.Adaptor1.Challenge;
+package Structural.Adapter.Challenge;
 
-import Structural.Adaptor.Adaptor1.Challenge.Gmail.GmailClient;
+import Structural.Adapter.Challenge.Gmail.GmailClient;
 
 public class GmailAdaptor implements EmailProvider {
     private GmailClient gmailClient = new GmailClient();
