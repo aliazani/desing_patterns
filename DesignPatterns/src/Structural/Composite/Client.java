@@ -5,10 +5,12 @@ public class Client {
         var group1 = new Group();
         group1.add(new Shape("Square"));
         group1.add(new Shape("Square"));
+        group1.render();
 
         var group2 = new Group();
         group2.add(new Shape("Circle"));
         group2.add(new Shape("Circle"));
+        group2.render();
 
         var group = new Group();
         group.add(group1);
