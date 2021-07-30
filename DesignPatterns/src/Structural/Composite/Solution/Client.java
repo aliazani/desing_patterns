@@ -1,4 +1,4 @@
-package Structural.Composite;
+package Structural.Composite.Solution;
 
 public class Client {
     public static void main(String[] args) {

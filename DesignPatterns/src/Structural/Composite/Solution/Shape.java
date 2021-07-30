@@ -1,4 +1,4 @@
-package Structural.Composite;
+package Structural.Composite.Solution;
 
 import java.text.MessageFormat;
 

@@ -1,4 +1,4 @@
-package Structural.Composite;
+package Structural.Composite.Solution;
 
 public interface Component {
     void render();
