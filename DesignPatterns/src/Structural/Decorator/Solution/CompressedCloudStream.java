@@ -1,4 +1,4 @@
-package Structural.Decorator;
+package Structural.Decorator.Solution;
 
 public class CompressedCloudStream implements Stream{
     private Stream stream;

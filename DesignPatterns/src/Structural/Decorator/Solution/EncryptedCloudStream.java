@@ -1,4 +1,4 @@
-package Structural.Decorator;
+package Structural.Decorator.Solution;
 
 public class EncryptedCloudStream implements Stream {
     private Stream stream;

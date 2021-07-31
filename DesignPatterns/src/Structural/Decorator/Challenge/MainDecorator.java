@@ -1,7 +1,6 @@
 package Structural.Decorator.Challenge;
 
 public class MainDecorator implements AbstractArtefact {
-    private boolean isMain;
     private AbstractArtefact abstractArtefact;
 
     public MainDecorator(AbstractArtefact abstractArtefact) {

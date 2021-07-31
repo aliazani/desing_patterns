@@ -1,4 +1,4 @@
-package Structural.Decorator;
+package Structural.Decorator.Solution;
 
 import java.text.MessageFormat;
 
