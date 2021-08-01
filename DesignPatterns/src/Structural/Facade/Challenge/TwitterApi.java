@@ -17,9 +17,9 @@ public class TwitterApi {
         System.out.println(tweets);
     }
 
-    private String getAccessToken(String appKye, String secret) {
+    private String getAccessToken(String appKey, String secret) {
         var oauth = new OAuth();
-        var requestToken = oauth.requestToken(appKye, secret);
+        var requestToken = oauth.requestToken(appKey, secret);
         return oauth.getAccessToken(requestToken);
     }
 }
