@@ -9,6 +9,8 @@ public class Demo {
         var sheet = new SpreadSheet(new CellContextFactory());
         sheet.setContent(0, 0, "Hello");
         sheet.setContent(1, 0, "World");
+        sheet.render();
+        System.out.println();
         sheet.setFontFamily(0, 0, "Arial");
         sheet.render();
     }

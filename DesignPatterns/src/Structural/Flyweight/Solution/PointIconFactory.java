@@ -10,14 +10,15 @@ public class PointIconFactory {
     public PointIcon getPointIcon(PointType type) {
         if (!icons.containsKey(type))
             icons.put(type,
-                    new PointIcon(type, loadIcon(type, "/src")));
+                    new PointIcon(type, loadIcon(type)));
 
 
         return icons.get(type);
     }
 
-    public byte[] loadIcon(PointType type, String path) {
-        System.out.println(MessageFormat.format("Finding and reading {0} icon from {1}", type.toString(), path));
+    private byte[] loadIcon(PointType type) {
+        System.out.println(MessageFormat.format("Finding {0}.png from {1} and save it to cache."
+                , type.toString().toLowerCase(), "/src"));
         return null;
     }
 }
