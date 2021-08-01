@@ -1,4 +1,4 @@
-package Structural.Facade;
+package Structural.Facade.Solution;
 
 public class AuthToken {
 }
