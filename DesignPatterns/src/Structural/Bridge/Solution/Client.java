@@ -1,4 +1,4 @@
-package Structural.Bridge;
+package Structural.Bridge.Solution;
 
 public class Client {
     public static void main(String[] args) {

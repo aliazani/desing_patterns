@@ -1,4 +1,4 @@
-package Structural.Bridge;
+package Structural.Bridge.Solution;
 
 public class AdvancedRemoteControl extends RemoteControl {
     public AdvancedRemoteControl(Device device) {

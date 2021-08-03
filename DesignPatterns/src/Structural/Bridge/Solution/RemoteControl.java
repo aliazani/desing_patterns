@@ -1,4 +1,4 @@
-package Structural.Bridge;
+package Structural.Bridge.Solution;
 
 public class RemoteControl {
     Device device;
