@@ -9,5 +9,6 @@ public class Client {
             library.add(new LoggingEbookProxy(fileName));
 
         library.openEbook("a");
+        library.openEbook("b");
     }
 }

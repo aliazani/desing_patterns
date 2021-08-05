@@ -4,7 +4,7 @@ public class Editor {
     public void openProject(String path) {
         AbstractArtefact[] artefacts = {
                 new Artefact("Main"),
-                new Artefact("Demo"),
+                new Artefact("Client"),
                 new Artefact("EmailClient"),
                 new Artefact("EmailProvider"),
         };
