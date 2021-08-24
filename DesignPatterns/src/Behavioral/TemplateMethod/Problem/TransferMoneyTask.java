@@ -8,7 +8,7 @@ public class TransferMoneyTask {
     }
 
     public void execute() {
-       auditTrail.record();
+        auditTrail.record();
         System.out.println("Transfer Money.");
     }
 }

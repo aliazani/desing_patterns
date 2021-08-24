@@ -1,7 +1,7 @@
 package Behavioral.ChainOfResponsibility.Solution;
 
 public abstract class Handler {
-    private Handler next;
+    private final Handler next;
 
     public Handler(Handler next) {
         this.next = next;
@@ -10,7 +10,7 @@ public abstract class Handler {
     public void handle(HttpRequest request) {
         if (doHandle(request))
             return;
-       
+
         if (next != null)
             next.handle(request);
     }
